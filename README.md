@@ -16,19 +16,22 @@ This project focuses on predicting medical insurance costs based on key factors 
 4. Dependencies
 
 
-5. Data Analysis and Visualization
+5. Workflow
 
 
-6. Data Pre-Processing
+6. Data Analysis and Visualization
 
 
-7. Model Training
+7. Data Pre-Processing
 
 
-8. Model Evaluation
+8. Model Training
 
 
-9. Usage
+9. Model Evaluation
+
+
+10. Usage
 
 
 ## Project Overview
@@ -72,6 +75,9 @@ Seaborn
 
 scikit-learn
 
+## Workflow
+
+![workflow](https://github.com/user-attachments/assets/550415d6-6623-4c49-8ac5-45b66e456aa0)
 
 ## Data Analysis and Visualization
 
@@ -84,6 +90,8 @@ The categorical data (sex, smoker, and region) is converted to numerical format,
 ## Model Training
 
 The data is split into training and test sets (80-20 split), and a Linear Regression model is trained on the training set. The model learns to predict the insurance charges based on the input features.
+
+![model](https://github.com/user-attachments/assets/f642fb0c-747a-4254-abe4-c50234b98def)
 
 ## Model Evaluation
 
