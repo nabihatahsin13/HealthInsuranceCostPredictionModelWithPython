@@ -1,12 +1,8 @@
-# HealthInsuranceCostPredictionModelWithPython
-
-
-
-Health Insurance Cost Prediction With Python
+#Health Insurance Cost Prediction With Python
 
 This project focuses on predicting medical insurance costs based on key factors such as age, gender, BMI, number of children, smoking status, and region. We use Linear Regression as the predictive model.
 
-Table of Contents
+#Table of Contents
 
 1. Project Overview
 
@@ -39,7 +35,7 @@ Table of Contents
 
 
 
-Project Overview
+#Project Overview
 
 The objective of this project is to develop a model that can accurately estimate medical insurance costs for individuals based on relevant attributes provided in the dataset.
 
@@ -62,11 +58,11 @@ region: Residential region within the U.S. (northeast, northwest, southeast, sou
 charges: Medical insurance cost, which serves as the target variable in the prediction model
 
 
-Installation
+#Installation
 
 Clone the repository and install the necessary libraries as specified in the dependencies.
 
-Dependencies
+#Dependencies
 
 The project requires the following Python libraries:
 
@@ -81,27 +77,27 @@ Seaborn
 scikit-learn
 
 
-Data Analysis and Visualization
+#Data Analysis and Visualization
 
 Exploratory Data Analysis (EDA) is performed to understand the distribution and relationships among the features. Key steps include visualizing the distributions of continuous variables (age, BMI, and charges) and analyzing categorical variables (sex, smoker status, children, and region).
 
-Data Pre-Processing
+#Data Pre-Processing
 
 The categorical data (sex, smoker, and region) is converted to numerical format, allowing it to be used effectively in the model. This includes mapping categories to numbers for model compatibility.
 
-Model Training
+#Model Training
 
 The data is split into training and test sets (80-20 split), and a Linear Regression model is trained on the training set. The model learns to predict the insurance charges based on the input features.
 
-Model Evaluation
+#Model Evaluation
 
 The model is evaluated based on the R-squared metric to determine its effectiveness in capturing the variance in the data. Current R-squared values indicate that the model performs well, with separate scores for training and test data.
 
-Usage
+#Usage
 
 The model can predict insurance costs for any new individual based on their input data across the six features. Users can input their own data to receive an estimated insurance cost.
 
-Roll number
+#Roll number
 
 PDS-05(MU)-09
 
